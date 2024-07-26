@@ -1,0 +1,53 @@
+/* CSS styles */
+h1 {
+    color: #3366cc; /* Blue color */
+    font-size: 50px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    text-align: center; /* Center-align the title */
+    letter-spacing: 2px; /* Letter spacing */
+    margin-top: 50px; /* Top margin */
+}
+
+.big {
+    font-size: 32px; /* Font size */
+    color: #729e8c;
+    font-family: Verdana, sans-serif
+}
+.arrow p, .arrow h2 {
+    margin: 0;
+    font-size: 35px;
+}
+.massive {
+    font-size: 70px;
+}
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.massiver {
+    font-size: 100px;
+}
+.massive:hover {
+    color: orange;
+    font-size: 120px;
+}
+.massiver:hover {
+  font-size: 160px;
+}
+.button {
+    width: 100px;         
+    padding: 15px 30px;      
+    color: rgb(204, 60, 60);            
+    border: none;            
+    border-radius: 5px;      
+}
+button:hover span {
+    display: none;
+}
+button:hover:before {
+    content: 'CLICK!!!! '
+  }
+.staring {
+    font-size: 50px;
+}
